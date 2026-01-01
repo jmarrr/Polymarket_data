@@ -510,10 +510,10 @@ See [LICENSE](LICENSE) file for details.
 If you use this dataset or toolkit in your research, please cite:
 
 ```bibtex
-@dataset{polymarket_data_2025,
+@misc{polymarket_data_2026,
   title={Polymarket Data: Complete Data Infrastructure for Polymarket},
   author={Wang, Zhengjie and Chao, Leiyu and Li, Yikang},
-  year={2025},
+  year={2026},
   institution={Shanghai Innovation Institute},
   url={https://huggingface.co/datasets/SII-WANGZJ/Polymarket_data},
   note={A comprehensive dataset and toolkit for Polymarket prediction markets}
