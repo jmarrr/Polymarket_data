@@ -9,11 +9,11 @@ A comprehensive toolkit and dataset for Polymarket prediction markets. Fetch tra
 </p>
 
 <p>
-<b>Zhengjie Wang</b><sup>1,2</sup>, <b>Leiyu Chao</b><sup>2,3</sup>, <b>Yikang Li</b><sup>2,†</sup>
+<b>Zhengjie Wang</b><sup>1,2</sup>, <b>Leiyu Chao</b><sup>1,3</sup>, <b>Yikang Li</b><sup>1,†</sup>
 </p>
 
 <p>
-<sup>1</sup>Westlake University &nbsp;&nbsp; <sup>2</sup>Shanghai Innovation Institute &nbsp;&nbsp; <sup>3</sup>Shanghai Jiao Tong University
+<sup>1</sup>Shanghai Innovation Institute &nbsp;&nbsp; <sup>2</sup>Westlake University &nbsp;&nbsp; <sup>3</sup>Shanghai Jiao Tong University
 </p>
 
 <p>
