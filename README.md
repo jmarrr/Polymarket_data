@@ -43,6 +43,8 @@ A comprehensive toolkit and dataset for Polymarket prediction markets. Fetch tra
 
 We provide **107GB of trading data** from Polymarket containing **1.1 billion records** across 268K+ markets, along with a complete toolkit to fetch, process, and analyze the data. Perfect for market research, behavioral studies, and quantitative analysis.
 
+**Get all historical data before 2026**: Download the complete dataset from [HuggingFace](https://huggingface.co/datasets/SII-WANGZJ/Polymarket_data), or use this toolkit to fetch the latest data yourself.
+
 ## 🌱 Highlights
 
 - **📊 Complete Data**: 1.1 billion trading records from Polymarket's inception to present
