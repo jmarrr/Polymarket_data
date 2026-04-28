@@ -168,43 +168,55 @@ def main():
         day = r["timestamp"][:10]
         asset = r["asset"]
         slug = r["slug"]
-        pairs = parse_int(r["pairs"])
-        pair_sum = parse_float(r["pair_sum"])  # sum of avg up + down per pair
-        total_edge = parse_float(r["total_edge"])  # pairs * (1 - pair_sum)
-        excess_side = r["excess_side"]
-        excess_qty = parse_int(r["excess_qty"])
         leftover_up = parse_int(r["leftover_up"])
         leftover_down = parse_int(r["leftover_down"])
         leftover_cost = parse_float(r["leftover_cost"])
         up_avg = parse_float(r["up_avg_price"])
         down_avg = parse_float(r["down_avg_price"])
 
+        # Derive pairs and excess from leftover columns directly. The CSV's
+        # excess_qty/excess_side columns are buggy: pair_sum_stats() returns
+        # excess_qty=0 when one side has zero holdings, so pure single-leg
+        # intervals appear as "no position" if we trust the excess fields.
+        pairs = min(leftover_up, leftover_down)
+        if leftover_up > leftover_down:
+            single_leg_side = "UP"
+            single_leg_qty = leftover_up - leftover_down
+        elif leftover_down > leftover_up:
+            single_leg_side = "DOWN"
+            single_leg_qty = leftover_down - leftover_up
+        else:
+            single_leg_side = None
+            single_leg_qty = 0
+
         # ── Pair-sum P&L (locked, doesn't need outcome) ──
-        # cost for paired portion = pairs * pair_sum
-        # revenue for paired portion = pairs * 1.00
-        pair_revenue = float(pairs)
-        pair_cost = pairs * pair_sum
-        pair_pnl = pair_revenue - pair_cost  # equals total_edge
+        if pairs > 0:
+            # Cost of the paired portion = pairs × (avg_up + avg_down)
+            pair_cost = pairs * (up_avg + down_avg)
+            pair_revenue = float(pairs)
+            pair_pnl = pair_revenue - pair_cost
+        else:
+            pair_cost = 0.0
+            pair_pnl = 0.0
 
         # ── Single-leg P&L (needs outcome) ──
-        single_leg_qty = excess_qty
-        single_leg_side = excess_side
-        # Cost for excess portion = leftover_cost - pair_cost
-        single_leg_cost = max(0.0, leftover_cost - pair_cost) if (leftover_up or leftover_down) else 0.0
-        single_leg_revenue = 0.0
-
-        outcome = cache.get(slug, {})
-        outcome_known = outcome.get("closed") is True
-        if outcome_known and single_leg_qty > 0:
-            up_won = outcome["up_won"]
-            won = (single_leg_side == "UP" and up_won) or (single_leg_side == "DOWN" and not up_won)
-            single_leg_revenue = float(single_leg_qty) if won else 0.0
-            single_leg_pnl = single_leg_revenue - single_leg_cost
-        elif single_leg_qty > 0:
-            # Outcome unknown — assume losing-side single-leg (conservative)
-            single_leg_pnl = -single_leg_cost
-            intervals_by_status["single_leg_outcome_unknown"] += 1
+        # Cost = excess_qty × avg_price on the side that was excess
+        if single_leg_qty > 0:
+            avg_on_excess = up_avg if single_leg_side == "UP" else down_avg
+            single_leg_cost = single_leg_qty * avg_on_excess
+            outcome = cache.get(slug, {})
+            outcome_known = outcome.get("closed") is True
+            if outcome_known:
+                up_won = outcome["up_won"]
+                won = (single_leg_side == "UP" and up_won) or (single_leg_side == "DOWN" and not up_won)
+                single_leg_revenue = float(single_leg_qty) if won else 0.0
+                single_leg_pnl = single_leg_revenue - single_leg_cost
+            else:
+                # Outcome unknown — assume losing (conservative)
+                single_leg_pnl = -single_leg_cost
+                intervals_by_status["single_leg_outcome_unknown"] += 1
         else:
+            single_leg_cost = 0.0
             single_leg_pnl = 0.0
 
         # If neither pair nor single-leg, status:
