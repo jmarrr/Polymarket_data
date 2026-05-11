@@ -1,0 +1,1257 @@
+{
+  "btc-updown-5m-1777124400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xf32b3264967437abe1d1388cc386a20623a1271e31d3cbdb9818bae6a3c2aeee"
+  },
+  "btc-updown-5m-1777126500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x5eb7836f3005bbcb18007ea25a8666d3a8abc7ba43076c49728286d519a6e01f"
+  },
+  "btc-updown-5m-1777126800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x669cc3d35c8d7a58c780198e0beefba8e2628e0c4d7afe957a46d5f6107d3cc4"
+  },
+  "btc-updown-5m-1777127100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xb9a871f38ae3e7118076469c6a5669fb51786a35c87bcc3318f995894ecc85a0"
+  },
+  "btc-updown-5m-1777127400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x303e143bd4ca96ed989cab086c9eb47aad079cccc85791e352ed89e706ce6f7b"
+  },
+  "btc-updown-5m-1777127700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xeb2cf5113a9f7820430503588d59ece19026d13ad11e2adc6fae8fbef1826796"
+  },
+  "btc-updown-5m-1777128000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x2e61e6ba28cb799f098251491cbe64f949e4749ec39d4c74d03915ece7555af7"
+  },
+  "btc-updown-5m-1777128300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xaa234e05706f12fe3d30d3ce81666e3d6d77e0d750e3be716b08ede2c38d618c"
+  },
+  "btc-updown-5m-1777128600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xe4b4f441198867dce8e9f802e7dc4b63447dd4818f458595974038dadc404274"
+  },
+  "btc-updown-5m-1777128900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xe36e96b2050facfffca95a1cf58d2fef0e7f9df6c2096ab33e6c828e56cefde3"
+  },
+  "btc-updown-5m-1777129200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x208a67fe64dcb1384973061d41833d2f1b40e1ac7f0421d42c1a16696c9f1d20"
+  },
+  "btc-updown-5m-1777129500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xcad7c5dde12f2d8dce6902f60c1affca10ab02ed025b9d013fc1f971c30c931c"
+  },
+  "btc-updown-5m-1777129800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa8d217439c112423fe8028092ac1783501a0282fc5e2c2fbadf058fa0f34551d"
+  },
+  "btc-updown-5m-1777130100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x1b02d65248fccc07e0884e1a4e0472219da27eb8a102ea3c0495274cba820d58"
+  },
+  "btc-updown-5m-1777130400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x34f6b666bc16c9b7d82ffe0062615152e79f6cc459addce274a096bf4f1e3491"
+  },
+  "btc-updown-5m-1777130700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x0c9f73f4191c2fba2a4e15bd8b088d97c49d59718fa6e3a1b22cbd47e736b95f"
+  },
+  "btc-updown-5m-1777131000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa8b8e030e9e552e1dd5ddc2c3b80ca137626ff76026d54402e8cf79c77ab3334"
+  },
+  "btc-updown-5m-1777131300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x3f1c5237ec11a0168d459e595d8ea46b7729f7d82da5785bf575e36097505be2"
+  },
+  "btc-updown-5m-1777131600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xd108f7b6b335299e01d72b48c53925e9aeedb3f6019a0789276781102024b846"
+  },
+  "btc-updown-5m-1777131900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xc8a325c75eefd8c3b642b3ffa3f513e75bf155b974606dc6ac4bf72f245aeb0c"
+  },
+  "btc-updown-5m-1777132200": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xf5dae3883eef512597fb485e0d9b6b28ed74e96fe81dba5d5f8afb8b50f1f4f3"
+  },
+  "btc-updown-5m-1777132500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xe404881971a8d0ce1cd1e6a867c4eabeb785a011c838ee1003bb9de5af7973b4"
+  },
+  "btc-updown-5m-1777132800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x54c8a96baeabb967d705454f1d8c141397ffc737066166e4065463e24bec14d4"
+  },
+  "btc-updown-5m-1777133100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa0c185c85990698f5f342f3bc7a84c5b88512d440825e4fd11e6e892b32b0b27"
+  },
+  "btc-updown-5m-1777133400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x91cc95d47f7e61155e29c171324308b1d7b22933cb9827da91e5b7ad53df9196"
+  },
+  "btc-updown-5m-1777133700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x400c5fccec86e9b95e5c10bfaec1fabebf99042a1fb7021e4474447e04ff6ce9"
+  },
+  "btc-updown-5m-1777134000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x85fe9b83aeca5bf5267174c522fbaf0efe6a1d77c6bc24a18054afb7618ea8a8"
+  },
+  "btc-updown-5m-1777134300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x451ae02e1f86cdcbaec471b7718a9944f36d641d6a9e8fa3bb0c9475fa54fc2c"
+  },
+  "btc-updown-5m-1777134600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x648af3952d0b45e6ee8181522e3c91a73345c9eb1b565d223e183e1314b66c5f"
+  },
+  "btc-updown-5m-1777134900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x02f1eec08f7cf4576a207cba1ce9a51e0652b2995619efc70113e51d3ee7c68d"
+  },
+  "btc-updown-5m-1777135200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x91f92abd3ceac7d966f478445fb0f8ef9099c4db952aec1ecea79f5981c57c7d"
+  },
+  "btc-updown-5m-1777135500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9ea8391663147b736ccec36765cadabd92ec40e1b023ac5cb5c245caa55e34a3"
+  },
+  "btc-updown-5m-1777135800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xd7d6f0c1c27305bbac405beda1e631710dcf5b320d3a9c80fcd76d2bb93807ba"
+  },
+  "btc-updown-5m-1777136100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x459052e9ba025aaa678445456ebee4df24a8624f470df298a6ef7f8d447702e7"
+  },
+  "btc-updown-5m-1777136400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x4aff6acd0ced4e88d353d4c11bebeea7a05ab9a5378555c31a5fc17a2b09ea0e"
+  },
+  "btc-updown-5m-1777136700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x12d399eb1837d51e7568dfd06f784efe6f9a55f94ce1ac700d7109c8e5cced91"
+  },
+  "btc-updown-5m-1777137000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x829da5330d3c09f006d9f8beed97eaa6f1eb0cfa13aed415c75d8d681f15cd66"
+  },
+  "btc-updown-5m-1777137300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x09834dde1cc26bf909a9d6131676abd7fb25957200396672cc7d77469160b6e2"
+  },
+  "btc-updown-5m-1777137600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xbc70b8242918bdc815864deb4695ab33cc01250e834a59660a0812b5b3495d24"
+  },
+  "btc-updown-5m-1777137900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x802f0c75d9616a5afd9bab3dc54b2256d2bb5d8920044ba34a8114ef464a80ec"
+  },
+  "btc-updown-5m-1777138200": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x51e3800e773ba108974613a6b615986f1ae22a4a01782648837bae97ce0aad51"
+  },
+  "btc-updown-5m-1777138500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9bcc55ebeea3807eaa800cd9eff15360d59f2e90fa5cfac20889708b8458929b"
+  },
+  "btc-updown-5m-1777138800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x5ef483540673af52755f2d88b2c5dfcaa9803fd880cbd26c1f5296baab29e019"
+  },
+  "btc-updown-5m-1777139100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xcaacbbce87c1bf7ef66f04b78c4fa3db1400d7cd025a2d93a9d5d5b502f6e13e"
+  },
+  "btc-updown-5m-1777139400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xbe3c811636ab15c2dbd8e9c0e1c902b862941a43ea6e3d75c10bf0cfbd252af8"
+  },
+  "btc-updown-5m-1777139700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x0feae4f7f20852e636681dd6637e698679b62cd858d4d678757088172968e110"
+  },
+  "btc-updown-5m-1777140000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa3f432b9535a66a16376553dc0850597e570945d008a03096fb98928a47f2922"
+  },
+  "btc-updown-5m-1777140300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xff573bf795f1a44955e96254d5f787a442bdbe1b0767edce2b40a3f00c05eebf"
+  },
+  "btc-updown-5m-1777140600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x61b431671499ab0b41d95703e869b92451f8417619fc05dd59a7e1e1b29afa64"
+  },
+  "btc-updown-5m-1777140900": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xd5054ae628520fb50c02a8a70d012cde902190e37605ec3d9b7b78b4c51f368a"
+  },
+  "btc-updown-5m-1777141200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x7f214f1b6815bf8198f471d5d3ffd89e659fb371bf825c8edd438b4a579023a0"
+  },
+  "btc-updown-5m-1777141500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xaf647ffa047d693d41bd1bc2b359e2948ab6c66c742291d1bb7af5b124445f01"
+  },
+  "btc-updown-5m-1777141800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x3ced7dac61159074c3c01d7b1d3eb432fb63167c0f3fd6b1feb76be1f83c823d"
+  },
+  "btc-updown-5m-1777142100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x3b42ab5e9e0af6f806eb4047558533c1f23e677f3cb971529533b74f87bffe97"
+  },
+  "btc-updown-5m-1777142400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x563f93f1219d961e66cf83c2d1d06807c0bd8a07f440c85fb4b257da89e1df43"
+  },
+  "btc-updown-5m-1777142700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x1a90ce38b916b1f5d533c7408c0c612d45502e228c7de5b52c781ed18b2551df"
+  },
+  "btc-updown-5m-1777143000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x4c782008ba7cd99ab2628ad2d673dfa75f820d857dcfcdd0e392fd977800db91"
+  },
+  "btc-updown-5m-1777143300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x3815f969c4604b2f757db053e27f5052a0513303cef27ee07f0f4004d5c29022"
+  },
+  "btc-updown-5m-1777143600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9b42d1b423a69b433a2c5fec81e01fe14df4de12a4ed5904516447f4a3047fb1"
+  },
+  "btc-updown-5m-1777143900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x7b635341e01ece2a7aa3a033b34c0399bc1b3188d318fe442f5b282072c31625"
+  },
+  "btc-updown-5m-1777144200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x884d364581be4155fb2d31f1cfb11f2ba8f0935c5219e9b810df5e9939aca1cd"
+  },
+  "btc-updown-5m-1777144500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x8c74e5602ed2a35d2dbf385f3cdaf96ede3723794b838b575ba8a411904069e2"
+  },
+  "btc-updown-5m-1777144800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9c51b2844a4193749186a7e5456dff1ed0a646f377005fd94b6e6386223fb9ec"
+  },
+  "btc-updown-5m-1777145100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x3ca8e32eee7099259515c9f0b442a00e108e0962cb58fd6921253170293e547d"
+  },
+  "btc-updown-5m-1777145400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x62d4b6605b3e4dac22bafb1d7ab2e0a9abd479783462b535b37728b0c40988b6"
+  },
+  "btc-updown-5m-1777145700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xf6db3355a2ef1830448d23afbd7f4ebe142929e6e81074205fc100811e326971"
+  },
+  "btc-updown-5m-1777146000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xab59a5d352f993d51c5376dc2c4d4cf30db28347f56541dc5ff00b6d0fa3fe6f"
+  },
+  "btc-updown-5m-1777146300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xf2a8fabf3110f960167cad30c03e943d9588a26f389984bbe8e4338436811903"
+  },
+  "btc-updown-5m-1777146600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x6bd6419c943e87214a568ee2da9c32e0f10f4719903c545eed624c0c77d49892"
+  },
+  "btc-updown-5m-1777146900": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x2ed919ad47941ba696776646f57425b59a34f8c9710ba9369642cf534065d49e"
+  },
+  "btc-updown-5m-1777147200": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x6e1006b32d40f80e76d78c4e7f609b363db42585a9e8e184e273df690becc854"
+  },
+  "btc-updown-5m-1777147500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x36c1e47f3489d84130785aa3b675325795eaa720543db23db68c12e0799bf134"
+  },
+  "btc-updown-5m-1777147800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xfa52c8d9efb1b5a931f5770b9fb70499015311f008d6ac8e9bc128a67769a38a"
+  },
+  "btc-updown-5m-1777148100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x157e9834cb94de204d8c6bf98e9059f76988cfc2c8affbe77495435bfe8eb610"
+  },
+  "btc-updown-5m-1777148400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x4814657d8242b5db1b08920a93f4a50e10f04b7b18ceae769c41aa00ccce1ce3"
+  },
+  "btc-updown-5m-1777148700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x6ed4964b06450e4bca1a247eeda9b17ff4612ceca088ad3ae2cd916d615b9e07"
+  },
+  "btc-updown-5m-1777149000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x43bf4b3eb0d832dd60648d37e2bbdf80dc6e2e6dcb75e22bffe193a2a7b605d4"
+  },
+  "btc-updown-5m-1777149300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xbcb15fcef38577c6d36c855b9ecca1e6e65ffb47faea73c5f2ea6cc09a13fea3"
+  },
+  "btc-updown-5m-1777149600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x09afadb6065d7515ac1e04705e68df7730347b5844ddae1b735a58ed4cf984b8"
+  },
+  "btc-updown-5m-1777149900": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x37de046e4ce6cd338971ac7dfb0ef3c943c6bcb5699b18ab34b23e174d088f2f"
+  },
+  "btc-updown-5m-1777150200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x4af87dcdadff0b91a0b3c774d13bc05dcefc80326e8895651b645b5db89a3e53"
+  },
+  "btc-updown-5m-1777150500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xc18232138d9c0766c7de82e4ae671dcb2315fa7966ea95a7115ffa4111f7cce1"
+  },
+  "btc-updown-5m-1777150800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x503ae1568b1f7483d2cf4e880c76c27fb1cf7132298f8102c517137ecdb13f01"
+  },
+  "btc-updown-5m-1777151100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xc60edfc2d5ae6a31fc6f0f6bd5210228fe27ca9ad0ed377c7dd03becc31a265c"
+  },
+  "btc-updown-5m-1777151400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x5ebb9623799d9b3d6a210c3c1516166df21cb9174a64f958fd94f297f0066238"
+  },
+  "btc-updown-5m-1777151700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xe6c02601de97bdbbdbb7494c431ec7fda7e4925c2d3693a07e8141f51d0e6e49"
+  },
+  "btc-updown-5m-1777152000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x18a32f569e145f8dc069814f380c85e15b0db4eb6d998135e677554ab5878003"
+  },
+  "btc-updown-5m-1777152300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xd385b6db68d401a75fb51fd2ee9668b5ceef55dafb84e9ec39d3bd35e78e3e3a"
+  },
+  "btc-updown-5m-1777152600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x979f0cfdf9bb48becf2062b7a44076efe880985057a4baed8567d0d6be3f307c"
+  },
+  "btc-updown-5m-1777152900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xcf65a042298875c091bff1f2213918d46c19b4db839561dc7da20771d42f053c"
+  },
+  "btc-updown-5m-1777153200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xb80da0631e72e87a6a9749ff4d50cf6178f631185c612627c4c10841981102cb"
+  },
+  "btc-updown-5m-1777153500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x6190ea11afde1a5ace1f277a84a83b2d3512d0e45a6ab1e53fb51055d98932f8"
+  },
+  "btc-updown-5m-1777153800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xe353d2e586e55e19ee7c130ae13dff32b6b8e6e0822e68279040290e98ae0004"
+  },
+  "btc-updown-5m-1777154100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x138afe4d78c79c7f581b38c56065f32d60f1b5cc50cbe3ef5f625ade91c68a37"
+  },
+  "btc-updown-5m-1777154400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xb1d2e07c02374198a3eb7cfe8848187695f3f2b99c28e950ce9518219700f3ab"
+  },
+  "btc-updown-5m-1777154700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xcbc504cdc771fb361d6536b121425f2c73bdf344e0ec2f32913979976662ee59"
+  },
+  "btc-updown-5m-1777155000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xccccbbfc0fb964141cd08d5a870d09e137dfe15f04f8a08b22225d3326ae3b0f"
+  },
+  "btc-updown-5m-1777155300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x06bafc492d4ed5bd1e5111a4dc8663ec91c558765c33aa19ffcd79fdfa3baf48"
+  },
+  "btc-updown-5m-1777155600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa90246a53fac2b848ef67e74f7a180e8cab17cc93133d42cf11bf1976b8a2ed7"
+  },
+  "btc-updown-5m-1777155900": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xfff37ee47176ab0b30c9f4391151b7955c3e0357a00ad64b10bdff214a5bb7d6"
+  },
+  "btc-updown-5m-1777156200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x002f6c9402ca3cac62cd99933bf434fe7a7b530b90fe347256073a90b5501d8d"
+  },
+  "btc-updown-5m-1777156500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x527c5e9bc82852879b7a2b685c908d722bb055a742082e36e37ccf109ec0645b"
+  },
+  "btc-updown-5m-1777156800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x4271796de7fee6163ec6116e161f0419ee0f5315387be0fc91335fafbee763e9"
+  },
+  "btc-updown-5m-1777157100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xe59ce15d8672d4c5827b6d9e27de40670a25efe301e6b9058f49a5caff7ab6f0"
+  },
+  "btc-updown-5m-1777157400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x38bef0a8082fbd01f93755e7f1580ef88148513d39903f44be8d45e97924b51c"
+  },
+  "btc-updown-5m-1777157700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x1825b353bca2126d53525edad5b629d0dc2e56c9cd24b09f038b114ce43d8016"
+  },
+  "btc-updown-5m-1777158000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9ba670707d3ad925b5f93326212f48efeb743abf65a1d167cf8b22808243cbb6"
+  },
+  "btc-updown-5m-1777158300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x5788fcc000159aa6a2a8b21a143a47a43eee2502190c649e23259ba2ff54041d"
+  },
+  "btc-updown-5m-1777158600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x594695b2c5c184675eee48b779e761ec26ec72b720cd6fef625fd0dfeb5fe06b"
+  },
+  "btc-updown-5m-1777158900": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x5e606673273e9cc4cdf21c4e7bd24c56c79e6e534047792175f6840addb75b50"
+  },
+  "btc-updown-5m-1777159200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x863dddfe6b9e22eb073fc233e2fa2f20419f36511503108609703a24b5ab097e"
+  },
+  "btc-updown-5m-1777159500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xfa7e214eb689cf695a8df723a6dbbc6ec1d7969270e53347cde5b5acbb02d481"
+  },
+  "btc-updown-5m-1777159800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa6cbe70604c3f4369deaf257f6bf831d97ddccc82ca974d986b7400ad30e5ae7"
+  },
+  "btc-updown-5m-1777160100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x96be49bdfbffc6c6c60fd0a3c75ef5cc6be5b0ccdae6540c82a1cc83a3986733"
+  },
+  "btc-updown-5m-1777160400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xb2fbb85bb6680505436932e32b9b5a501069f6ea717d50231c16f9e770bbe88a"
+  },
+  "btc-updown-5m-1777160700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa7c5ddc0017849b8610b05d8cf061fea65d18e254f041b33f0885307032dd9df"
+  },
+  "btc-updown-5m-1777161000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x731139306eed3de198e93e426a6ef7c3f5485ea77237fa90164aa3f3da6ac049"
+  },
+  "btc-updown-5m-1777161300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x27167ea860659caa94bcf0e6cde14509ed1be77e351edca287309ed3afdab951"
+  },
+  "btc-updown-5m-1777161600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xde4179300f7ed2cff5c8acddca42b0d5e8b634c3c9a4bf1da23aebb3de4954db"
+  },
+  "btc-updown-5m-1777161900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x86583b216c0278166a8895f923e1ba4f63a27af7402ba5ff3a2fa43edc50abc5"
+  },
+  "btc-updown-5m-1777162200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x20fd93bf8278201d5a9bfbee230d999ba93545cb7bb9d55fd400518557cd4e4a"
+  },
+  "btc-updown-5m-1777162500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xc597f0d959ab24b6cc9ac993d28ab0bebf32ecb09a6aed7e6ef46d52a477a1ac"
+  },
+  "btc-updown-5m-1777162800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x21b99c8fb6a945eb7c612fe9c59240f2060cf352146705dea040e71cba32d083"
+  },
+  "btc-updown-5m-1777163100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xc729eacf177ccb12b0b103f7990305c420a5d3f2e327ec324277a80496fcd780"
+  },
+  "btc-updown-5m-1777163400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x25b2c17de318e338d813b1e090b596403a4fbde9bc493cfc0886016a26b90870"
+  },
+  "btc-updown-5m-1777163700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x2410f0332b2a09bbdc56e09f98142d32f913bea4d9fc82ca6de1902d1f38e5aa"
+  },
+  "btc-updown-5m-1777164000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x1d72a5bda8eebe63094f4669c8f13edcbe8e87e2eb15672926927efc7a5410c3"
+  },
+  "btc-updown-5m-1777164300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xc94d7403358eba601a405dfbc77a2850506c4146e2f699a5538280eb0ee0dcad"
+  },
+  "btc-updown-5m-1777164600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x79200f68ba450567110277d9da4d27d2c1eaf7084758445b568efea5e3e54bf7"
+  },
+  "btc-updown-5m-1777164900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x29331105289058bbd558a8cce31d2118331fc6ab68b4c6adf6c9c830f6578a85"
+  },
+  "btc-updown-5m-1777165200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xdeb92ad6a4a60815344e0a1705c0de6d121a6aa57e5331ebddcc51d3d1fc5934"
+  },
+  "btc-updown-5m-1777165500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x5db99e0dd536550c79d6ae35833bcb50fee217697c530618a5b4bd471f000d72"
+  },
+  "btc-updown-5m-1777165800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x83dbec26694b363ee700030f30e5af663780af84924eb8ba6e36b07684cede67"
+  },
+  "btc-updown-5m-1777166100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x354b1c8bbb58605e6a7ef93a8f51255cfcae515e14aa37da14d16d4beb624db2"
+  },
+  "btc-updown-5m-1777166400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x7b3b55e3d641d47384cb9bace4f7aa86a1dd37bb0dd5a3c746e5e3835965c515"
+  },
+  "btc-updown-5m-1777166700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x2f048600740cc4e713c69fea0c5d1b0b0a011097eb349fb5588261da2ce57158"
+  },
+  "btc-updown-5m-1777167000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9ab5dfa7229afb5249ad50b292340f59e032e0040d74afcfe1b7630d97f5e081"
+  },
+  "btc-updown-5m-1777167300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x645db394b4dd2310f04694dc1882b47e5d67b05adc0ba062fc325918c409a333"
+  },
+  "btc-updown-5m-1777167600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xdfb5b42fb3aecf2d8965c42a90a1cb4cd1a8bef1ebd7013ee8e726c977321c3b"
+  },
+  "btc-updown-5m-1777167900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x1f8b345ecd5195d4a5ff4951aea2af0f1f73aa33f24f7746f5a06c3315fdcbfc"
+  },
+  "btc-updown-5m-1777168200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x0be3fe9788e321df582e21724bf36ee20b865ff8d76481e682effb5a82f79a2f"
+  },
+  "btc-updown-5m-1777168500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xfee96ee3062767090a4f2118f2dc44a567afb788acee8bbda607de298514b6b6"
+  },
+  "btc-updown-5m-1777168800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x1041849da9b4d7bb8f18fa0727374d31a6f97b3c1ff54966bf46d7ae8f89b3ff"
+  },
+  "btc-updown-5m-1777169100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xac0ac094ef3502605c46e1e4ff97af044df3228c438fdf1d23f3653d88af5c1f"
+  },
+  "btc-updown-5m-1777169400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x3487074a92a60c186c948d8d9b8c3150bf177555fa0c07de9e1b534c7134c29a"
+  },
+  "btc-updown-5m-1777169700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x65cda3e048737a12e60510e311fc0a526e8a57899c36d34739aa57e4429e02e0"
+  },
+  "btc-updown-5m-1777170000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x63146e19641ba545745afbda2cfa8338a7831c3e1b7dab10910b330e8b4a3126"
+  },
+  "btc-updown-5m-1777170300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xfe322175a8220f56edf5f9f2f336b5bf2e99652fd67c168bb78a7fd1f553e0c6"
+  },
+  "btc-updown-5m-1777170600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x3cd83d35e7970075a3fc2fe3106769b322c21578d7c4e080dbacf73bfb589e78"
+  },
+  "btc-updown-5m-1777170900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xc59d4bbc1e867fcc88b9333a80ad97553bca7fd9548a50c3db36de4d08a91288"
+  },
+  "btc-updown-5m-1777171200": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xd2da8ee019c1ad9e192d8aa38d79cdd5e0ea45dced19f4242fc4da942f6d8a32"
+  },
+  "btc-updown-5m-1777171500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xbbf6ca3bc72b37cd8779c65e36be363a06f0a127319ca032724f9429bf9b0dc5"
+  },
+  "btc-updown-5m-1777171800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xffe7531b242f52023208f7dcf2ad7c527f0d9b6cce04dd49060d79d2b5f30dc0"
+  },
+  "btc-updown-5m-1777172100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xbb5e38cee1e97789f1abd23c7f822b42147e0386c89c3b6eaf4a62a2d77a98f5"
+  },
+  "btc-updown-5m-1777172400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x3e30177ed490c891d3612b375c56be0ac6a14713d7f610876ae1868ef3386c61"
+  },
+  "btc-updown-5m-1777172700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x470dfbaccd83be00a0e0857ea7e050795ab1cfd0506a527000b071ee10b0df26"
+  },
+  "btc-updown-5m-1777173000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x7fafcfc5f411334616ea78d91c388e0ca3167e46b98460eb776dd5d096c9c5b5"
+  },
+  "btc-updown-5m-1777173300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x3090ae2c83c107fd8f1f9cbd6acccd6f738a8feb2ddf7a362f81f779087a3be1"
+  },
+  "btc-updown-5m-1777173600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x9884b50af866dd78cba49885caacb717d18edac074ef2e3fbfb88bc01a385281"
+  },
+  "btc-updown-5m-1777173900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x1edd94e0ca25223af5371cb4f0f7caf9de3bb272faf57e5cc18801ede2fd1062"
+  },
+  "btc-updown-5m-1777174200": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x99ba47da8dc0f9e9e01979d18427607ffd03eafd803f06f0df33c414322a59fb"
+  },
+  "btc-updown-5m-1777174500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xd59575f8b8e7878dddb27392a3b586ab8a3e7b9b3d60eb3b97da445733890427"
+  },
+  "btc-updown-5m-1777174800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x43840a0f6839cd54b15878fcb41df4fa9eb9f6ca0726f5418537e043d8759c98"
+  },
+  "btc-updown-5m-1777175100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x0897fdc52a3c3ee5a3fe13ac2c39328c7daa2c6112401225bce634d16da37a22"
+  },
+  "btc-updown-5m-1777175400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xdc099fb8272d20fb87ac0962489d1ba114262ce4ede44b105fe5b517fd01ffd0"
+  },
+  "btc-updown-5m-1777175700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xbaddf48cc1ce84215481d784784c52df7540e1396b24aff6a6e3718eeea06ef4"
+  },
+  "btc-updown-5m-1777176000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x270359d86a546b75eb3f1cadadffc981ea9d5f54d57c3b2d9417b8681d46bfb8"
+  },
+  "btc-updown-5m-1777176300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x564b63651ab68b6870d5535f28aab7fa94f30e3878d5ebd28bef6177489d94a0"
+  },
+  "btc-updown-5m-1777176600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xce65c35a18679f1a766b33ccdd8bda2ce7b9650ff8c6a6334a6346d84d5bd0ca"
+  },
+  "btc-updown-5m-1777176900": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa3af28fccb1664f91341d29f0641bf3daed395133d50db6f23972096ba4c920f"
+  },
+  "btc-updown-5m-1777177200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x07c5ceee1f53236f5f9cffb779ae3bd213ac454004b42913433da51737049928"
+  },
+  "btc-updown-5m-1777177500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xc4dac1169c087762e128656438407d5b0203ab27c809415bb0174e76cfb939e9"
+  },
+  "btc-updown-5m-1777177800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x7dd4bb0eb6530b8e72ef6a6f998d3db081ece85398cbbc7ce682bb9ad1b525fb"
+  },
+  "btc-updown-5m-1777178100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x7c3bd7ddb361fa0dbef61c95cdedc2e36e3e4e4c80cd65a3eec65438ba1dde6e"
+  },
+  "btc-updown-5m-1777178400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9c9c670052f14f92407e0bc0e004efac1fefe63d8f60fc8a02640f3db7990818"
+  },
+  "btc-updown-5m-1777178700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x78a6c63d1c87f860ef6eda5442bbee499889b19cfb27d63dcf39534daa5056f7"
+  },
+  "btc-updown-5m-1777179000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa7ae8a4119fe00f231e693ed717339dd1e13da4617c79f3b1522ab1aee3965b6"
+  },
+  "btc-updown-5m-1777179300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x1f0bf6af9e8e9960525b9f93c04bb79a4ec68e91c91f0503fb11a1c8bc421bda"
+  },
+  "btc-updown-5m-1777179600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x7e5221a8950a1c087587597477b2cd1eb58c34e90bdd1282515249e4b46b2688"
+  },
+  "btc-updown-5m-1777179900": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xb904f497d0791e3138f03e96fdec86aa2c7e8b3ef5a437dc0dcb41edcb955272"
+  },
+  "btc-updown-5m-1777180200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9429281fc65b2be6b710c52549c38440a744e2ce41923985c5710566ade7d328"
+  },
+  "btc-updown-5m-1777180500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xc7b0b8994228264f586a410690dae696b7ae59524f65709527bdd79046d59947"
+  },
+  "btc-updown-5m-1777180800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xbbd0ae7802f92e7347bbe6b4b8a7b4c811ed0578c65dfd2af92254de1c63d0a1"
+  },
+  "btc-updown-5m-1777181100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x12870d2d941369a2836cfd05350bbb5fb3725b7de767378e86612d0f3e3cb8e0"
+  },
+  "btc-updown-5m-1777181400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xab56217bc906f46791de3d6756cc7be5aa05c955df53224294995cc1305943ae"
+  },
+  "btc-updown-5m-1777181700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x7a64908cf392e76543f6f0ee81fc2c5d82551d8ace2dcc5e41843c1524382e0a"
+  },
+  "btc-updown-5m-1777182000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x94d0762a30b965e153f500a8384bfde3fe046a61d418a5932d98a557943954c0"
+  },
+  "btc-updown-5m-1777182300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x1e424cd983cf9e908e1bef7c8b33da8da7f051d0e4eef586407057411f1eb246"
+  },
+  "btc-updown-5m-1777182600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xaff0d9405b9a3fe7afde4a59defe3e0bebdf62955b747792ab74631dc8459680"
+  },
+  "btc-updown-5m-1777182900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x23697c18c062a5295d726c7fb9433feac19341108b5b7401034ee19efee2df73"
+  },
+  "btc-updown-5m-1777183200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xfaa3e4443622d38f913eecf12645f06da4ef3f63ae7345b52a4da7fb83a3c402"
+  },
+  "btc-updown-5m-1777183500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x958b02ebebe5cf646351b76374d0aa0ee70d13978c8bbc4d882807f59ec3b96a"
+  },
+  "btc-updown-5m-1777183800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xa8517b87de5219f463739a14497956afe7c3a25b38adb915fd7d1465c12a6193"
+  },
+  "btc-updown-5m-1777184100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x076db916e2ee9f73763a366c94605ef229db26876bcb8052e893cb0fdf38258f"
+  },
+  "btc-updown-5m-1777184400": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x8ba40af9a425557bdadceb2b3911d6d83578422e6abe1f9a1126d18b725c1144"
+  },
+  "btc-updown-5m-1777184700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9b7071187e61323ea046e31e4d14514f6853462b3a651fa62671acbf2b60f042"
+  },
+  "btc-updown-5m-1777185000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x0b3f7f03c369c8b86062225ed60ddd5dcd2694b43512e6aa7b480145095f0ae8"
+  },
+  "btc-updown-5m-1777185300": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x670a5971b5ebbbe9c4a62efc0692a407224af14f08ef99329fa98f7eb06ce24a"
+  },
+  "btc-updown-5m-1777185600": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xec82cc020b7b943f59dc9467180e4277331e59eeb790887edba1950ca7a5630a"
+  },
+  "btc-updown-5m-1777185900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xbc4e57ebc00cc93618218c8867247447ac75038258bfab79502d605f01f83d67"
+  },
+  "btc-updown-5m-1777186200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x4c54bfd67dacf9f6e1285ff463e8318a9a290a9b8b4a0a6bbfa5fb4749f6d05d"
+  },
+  "btc-updown-5m-1777186500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x6414815744b0dc314f0e0badc214d564599a135b8786d9c5627c1e0c88a4faf0"
+  },
+  "btc-updown-5m-1777186800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xe9ea07cfc4b66e76ba695288481bda5b5ced08723918e792ef0188565e229f04"
+  },
+  "btc-updown-5m-1777187100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x610a24ec72f9e79b0a81707ee73a15a2be20bf9b26cd470186b18b3b8bc55ff6"
+  },
+  "btc-updown-5m-1777187400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x6ff353272540f60df5f6b0a999e7e70325ba2a4ce2a0741f7020b4b210fb65d6"
+  },
+  "btc-updown-5m-1777187700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x262e9ddfff7bc8156f489c0d5aaa4496a38a6006d5475f42c04cea83475f2146"
+  },
+  "btc-updown-5m-1777188000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x0cbcb753e7dd633c51af5bd6b7bb70d2b47216812f661852882e55e3ee0ac3c8"
+  },
+  "btc-updown-5m-1777188300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xd2c4dea8c4a1f65f9e00938c5f082875d4d92646436ea5b80e1e1e7d08935ba9"
+  },
+  "btc-updown-5m-1777188600": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xedd56468b2426d714c9864864e1efdfda3a62eafe1ec511a06b02245788ace61"
+  },
+  "btc-updown-5m-1777188900": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x560cf6d61535cf0fbda71e0002d82218c4777a51de361375ac18d791db12beed"
+  },
+  "btc-updown-5m-1777189200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xd5dbec6fa5316ed67d26b2288101320a05e15e9e00ccd6327b096c10962e9a85"
+  },
+  "btc-updown-5m-1777189500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xabbf72613e65f31e4b66fcfbcd5a5b9c6eecb13015542a39450dbc96964cab9b"
+  },
+  "btc-updown-5m-1777189800": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x73274adb88c037ad2b66a5280c452524394f3290ae2c7866ae5efac3f74734b9"
+  },
+  "btc-updown-5m-1777190100": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x9f6fb2837d539d91bb07f4b3b9f352d70e988a013aad9ea85056f64c24ae5ab4"
+  },
+  "btc-updown-5m-1777190400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xcc91f1c529189b24d03db9dbed274ff829223fb6c66c622b90308f0d9d6d81df"
+  },
+  "btc-updown-5m-1777190700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x661822fb5936049b22ffd6f4d7de3dacc4c01259df9fb7bae4e3dfa712311258"
+  },
+  "btc-updown-5m-1777191000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xbfe54f24a0d1e418d205782ae8de3666b53840cf1a57d80874b110a79de649af"
+  },
+  "btc-updown-5m-1777191300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xd60f1c0b5d84f21625beca9b3be015b7303f51499f9beb030e22c3aff97e0a67"
+  },
+  "btc-updown-5m-1777192800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x2174f1e5a2b1d5d765dc698b2f63012ab5487432a5daa50aa028c728418884d6"
+  },
+  "btc-updown-5m-1777193100": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x3542176d7b5775cbf25ad16ce1dab31f47fa9fa3b0af1024f5b52c7cd5ccd936"
+  },
+  "btc-updown-5m-1777193400": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xc8912e3b3250df0f8490a4d43e03da1ff4d7c2ffc07c0900a56c26ca554456f7"
+  },
+  "btc-updown-5m-1777193700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x8c716707c33c9daa983f91ee9b941c1f50081212f7d5f8bac792e9fc19db7d1b"
+  },
+  "btc-updown-5m-1777194000": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x84bd49f8656dbe8b8c9330026b73f77d264cf4a91f1c183c93ab495a12e4ec8f"
+  },
+  "btc-updown-5m-1777194300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x94580e505769172395eda1fb157165f6ee02f2c661df92fef41982ae0cf14332"
+  },
+  "btc-updown-5m-1777195200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x7a89804e55091ccbdf63b741f59ba662e7728891f548447de29fcfcb85bca6d2"
+  },
+  "btc-updown-5m-1777195500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x47c8cd4e5c84cbdd2d872ef18726c2f90659a8b662e4c78ec11d3ab1fdfc78b1"
+  },
+  "btc-updown-5m-1777195800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xd08d77432b646034590da4930ce5bae15ea297ed26e99496c0117c5bafe3dc47"
+  },
+  "btc-updown-5m-1777196700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x298a5298aa83159835c602f4bd600b78bf9748354da33d0721835e4d448e8182"
+  },
+  "btc-updown-5m-1777197000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x5fd8d3959f0bae8693b507bae56eda2d6ea459f0180cbd688abee18b8335f2f5"
+  },
+  "eth-updown-5m-1777193700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x915bad9f74c1a7d313cc797fc448361df7cb0b58c74477bbbeb9076c63362ab5"
+  },
+  "eth-updown-5m-1777194300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xe074d500641273185f98319f5597e3c8455213260a4e12bdd2cbe5d2bf847747"
+  },
+  "eth-updown-5m-1777195200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xd5cbb5c52055686276070b1e4e9e72b0bcda45cf4c30015eae129e27c5cc4687"
+  },
+  "eth-updown-5m-1777195500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xeb0cc126fe1993217d12a43896863640372a6b5cdf56691189e3d21ff7346717"
+  },
+  "eth-updown-5m-1777195800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x156d249f6d9cd596d5d43734938a51da0db08c5c31eb16853505779069771f0e"
+  },
+  "eth-updown-5m-1777196700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xb45512ad82c05164073c2c03ed11f77bc8b6dd0ba597c29096a21b8389c901f7"
+  },
+  "eth-updown-5m-1777197000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xc6ff756d1a696eebb4a773d598f0a97701f18ca9c411cf8df627b4cae6753b84"
+  },
+  "sol-updown-5m-1777193700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xc0e00258ce56328355227d80cdddb9423bd986c5ff0b6e18fce55b74de08c521"
+  },
+  "sol-updown-5m-1777194300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x3f96c12a26482e7636ccde008714b686e12eb0f83507d2fec2d1a6ab19fa701e"
+  },
+  "sol-updown-5m-1777195200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xf0a82b3814115b3366ad974bf0780fad17a7a1316dc07a049c3e45ba0a075e2e"
+  },
+  "sol-updown-5m-1777195500": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x8af8fc5518f3fa9f695a2ac4e2763feab4e0e417a88fc13964f657b476863a3d"
+  },
+  "sol-updown-5m-1777195800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xb8dc2456fcfac56a5f777ae4deec62f81a67f4f72f778b0fdfe534fb167f5b85"
+  },
+  "sol-updown-5m-1777196700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x71bb60d0962bb448af112b2a38abe5d0bd217da52a4041fd0af833ee2fe72841"
+  },
+  "sol-updown-5m-1777197000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xce6c9420f75d5480ccac51ddd2ca33fef984e3f3c45106bd645b5561c0e348c7"
+  },
+  "xrp-updown-5m-1777193700": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x22480ef93740dccf0a890db45158f4d22e5d34b05178c296e6ccf7494d3f138c"
+  },
+  "xrp-updown-5m-1777194000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x1933bffd51a2c28e411f120ba366410910c694f20101441ba763a86deef69e1d"
+  },
+  "xrp-updown-5m-1777194300": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0xaa8ace768df944e4f0e60e2036d707b990aca5bf9a1a7e51e7baa56748d192f7"
+  },
+  "xrp-updown-5m-1777195200": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0xd9de7bbf4d414b620ba27316399f3dd6645b08565280573f01432ca1154e69d2"
+  },
+  "xrp-updown-5m-1777195500": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x503a252dc937c039736c116edd46dd6f750954c8ad44162d2f3fc23501f76653"
+  },
+  "xrp-updown-5m-1777195800": {
+    "closed": true,
+    "up_won": false,
+    "condition_id": "0x0172372a5a2618a99f7f413ec3fad41367987ca23e1c6cf049ce024d7f0dcecf"
+  },
+  "xrp-updown-5m-1777196700": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x12f428563fed9fad0423f78834c62e820fb84478f4d73fbe97e69d3284ae2e05"
+  },
+  "xrp-updown-5m-1777197000": {
+    "closed": true,
+    "up_won": true,
+    "condition_id": "0x4004edacda2360ec5122b06b4fb0ef9b42ad70fddb8cf982788914a5d9fcd35e"
+  }
+}

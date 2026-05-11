@@ -1,5 +1,16 @@
 """
-事件解码器 - 只解码 OrderFilled 事件
+事件解码器 - 解码 OrderFilled 事件 (legacy CTF/NegRisk + new 0xe111180… exchange)
+
+The new exchange contract (deployed early May 2026) emits OrderFilled with a
+DIFFERENT ABI: 7 uint256 chunks (side, asset_id, amt_a, amt_b, fee, 0, 0)
+instead of the legacy 7-uint shape (makerAssetId, takerAssetId, makerAmt,
+takerAmt, makerFee, takerFee, protocolFee). The new event is also emitted
+TWICE per fill (once per matched order side). See memory:
+polymarket_new_exchange_abi.md for verified layout.
+
+This decoder dispatches by topic[0] and reconstructs the legacy field names
+(makerAssetId/takerAssetId/makerAmountFilled/takerAmountFilled) for the new
+event, so downstream processors (trades.py) work unchanged.
 """
 
 import logging
@@ -12,10 +23,15 @@ from eth_utils import to_checksum_address
 logger = logging.getLogger(__name__)
 
 
-class EventDecoder:
-    """OrderFilled 事件解码器"""
+# Topic constants (mirror config.py — kept here so this module is self-contained)
+TOPIC_OLD = 'd0a08e8c493f9c94f29311604c9de1b4e8c8d4c06bd0c789af57f2d65bfec0f6'
+TOPIC_NEW = 'd543adfd945773f1a62f74f0ee55a5e3b9b1a28262980ba90b1a89f2ea84d8ee'
 
-    # OrderFilled 事件 ABI
+
+class EventDecoder:
+    """OrderFilled 事件解码器 — handles both legacy and new exchange ABIs."""
+
+    # Legacy OrderFilled ABI (CTF + NegRisk exchanges)
     ORDER_FILLED_ABI = [
         ("orderHash", "bytes32", True),
         ("maker", "address", True),
@@ -29,33 +45,118 @@ class EventDecoder:
         ("protocolFee", "uint256", False),
     ]
 
+    # New-exchange OrderFilled ABI — verified 2026-05-09
+    # topics: [event_sig, orderHash, maker (indexed), taker (indexed)]
+    # data 7 uints: [side_flag, asset_id, amt_a, amt_b, fee, 0, 0]
+    #   side=0 (maker BUY):  amt_a = USDC paid, amt_b = tokens received
+    #   side=1 (maker SELL): amt_a = tokens given, amt_b = USDC received
+    NEW_ORDER_FILLED_ABI = [
+        ("orderHash", "bytes32", True),
+        ("maker", "address", True),
+        ("taker", "address", True),
+        ("sideFlag",  "uint256", False),
+        ("assetId",   "uint256", False),
+        ("amountA",   "uint256", False),
+        ("amountB",   "uint256", False),
+        ("fee",       "uint256", False),
+        ("_reserved1", "uint256", False),
+        ("_reserved2", "uint256", False),
+    ]
+
     def __init__(self):
         self.w3 = Web3()
 
     def decode(self, record: Dict[str, Any]) -> Dict[str, Any]:
-        """解码 OrderFilled 事件"""
+        """Dispatch by topic[0] to the legacy or new decoder."""
+        topics = record.get('topics', [])
+        topic0 = (topics[0] if topics else '').replace('0x', '').lower()
+
+        if topic0 == TOPIC_NEW:
+            return self._decode_new(record)
+        # Default to legacy decode (also handles unknown topics if any leak through)
+        return self._decode_legacy(record)
+
+    def _decode_legacy(self, record: Dict[str, Any]) -> Dict[str, Any]:
+        """Decode the legacy OrderFilled ABI (CTF + NegRisk)."""
         topics = record.get('topics', [])
         data = record.get('data', '')
 
-        # 设置事件名（因为我们只爬 OrderFilled）
         record['event_name'] = 'OrderFilled'
 
         indexed = [(n, t) for n, t, i in self.ORDER_FILLED_ABI if i]
         non_indexed = [(n, t) for n, t, i in self.ORDER_FILLED_ABI if not i]
 
         params = {}
-
-        # 解码 indexed 参数 (从 topics)
         for i, (name, ptype) in enumerate(indexed):
             if i + 1 < len(topics):
                 params[name] = self._decode_topic(ptype, topics[i + 1])
-
-        # 解码 non-indexed 参数 (从 data)
         if non_indexed and data:
             types = [t for _, t in non_indexed]
             values = self._decode_data(types, data)
             for (name, _), val in zip(non_indexed, values):
                 params[name] = val
+
+        record['decoded_params'] = params
+        return record
+
+    def _decode_new(self, record: Dict[str, Any]) -> Dict[str, Any]:
+        """Decode new-exchange OrderFilled and reconstruct legacy field names
+        (makerAssetId / takerAssetId / makerAmountFilled / takerAmountFilled)
+        so downstream processors don't need to change.
+
+        USDC's "asset_id" in the legacy convention is 0; the conditional
+        token's id is the non-zero side. We map according to side_flag:
+          side=0 (maker BUY):  maker gives USDC,    taker gives token
+                               → makerAssetId = 0,  takerAssetId = assetId
+          side=1 (maker SELL): maker gives token,   taker gives USDC
+                               → makerAssetId = assetId, takerAssetId = 0
+        """
+        topics = record.get('topics', [])
+        data = record.get('data', '')
+
+        record['event_name'] = 'OrderFilled'
+
+        # Indexed params (orderHash + maker + taker)
+        params = {}
+        indexed = [(n, t) for n, t, i in self.NEW_ORDER_FILLED_ABI if i]
+        for i, (name, ptype) in enumerate(indexed):
+            if i + 1 < len(topics):
+                params[name] = self._decode_topic(ptype, topics[i + 1])
+
+        # Non-indexed: 7 uint256 chunks
+        non_indexed_types = [t for n, t, i in self.NEW_ORDER_FILLED_ABI if not i]
+        values = self._decode_data(non_indexed_types, data) if data else [0] * 7
+
+        side_flag = values[0] if len(values) > 0 else 0
+        asset_id  = values[1] if len(values) > 1 else 0
+        amount_a  = values[2] if len(values) > 2 else 0
+        amount_b  = values[3] if len(values) > 3 else 0
+        fee       = values[4] if len(values) > 4 else 0
+
+        # Reconstruct legacy field names so trades.py works unchanged.
+        # Per-side fees not separately reported in the new event — put the
+        # whole `fee` on protocolFee, leave makerFee/takerFee as 0.
+        if side_flag == 0:
+            # maker BUY: maker gives USDC, taker gives token
+            params['makerAssetId']      = 0
+            params['takerAssetId']      = asset_id
+            params['makerAmountFilled'] = amount_a   # USDC paid
+            params['takerAmountFilled'] = amount_b   # tokens received
+        else:
+            # maker SELL (side=1): maker gives token, taker gives USDC
+            params['makerAssetId']      = asset_id
+            params['takerAssetId']      = 0
+            params['makerAmountFilled'] = amount_a   # tokens given
+            params['takerAmountFilled'] = amount_b   # USDC received
+
+        params['makerFee']    = 0
+        params['takerFee']    = 0
+        params['protocolFee'] = fee
+        # Stash the new-event-only fields under non-conflicting names for
+        # callers that want them (e.g., to dedupe the 2 logs per fill by
+        # picking the side_flag=0 view).
+        params['_new_side_flag'] = side_flag
+        params['_new_asset_id']  = asset_id
 
         record['decoded_params'] = params
         return record
