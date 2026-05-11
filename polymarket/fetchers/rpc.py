@@ -12,7 +12,7 @@ from web3.middleware import ExtraDataToPOAMiddleware
 
 from ..config import (
     POLYGON_RPC_URL, get_rpc_url, BLOCKS_PER_BATCH, REQUEST_DELAY,
-    POLYMARKET_CONTRACTS, EVENT_SIGNATURES, ORDER_FILLED_TOPIC
+    POLYMARKET_CONTRACTS, EVENT_SIGNATURES, ORDER_FILLED_TOPIC, ORDER_FILLED_TOPICS
 )
 
 logger = logging.getLogger(__name__)
@@ -49,7 +49,7 @@ class PolygonRpcClient:
                 'fromBlock': start_block,
                 'toBlock': end_block,
                 'address': self.contract_addresses,
-                'topics': [ORDER_FILLED_TOPIC]  # 只获取 OrderFilled 事件
+                'topics': [ORDER_FILLED_TOPICS]  # OLD + NEW OrderFilled 事件 (OR'd)
             })
             return [dict(log) for log in logs]
         except Exception as e:
